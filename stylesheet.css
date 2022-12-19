@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Martian Mono', monospace;
+}
+
+.signUp{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(1, 212, 212), rgb(87, 186, 228) );
+}
+
+.signup-name{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    top: 45%;
+    padding: 20px 40px;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    box-shadow: 2px 2px 5px rgb(54, 52, 52);
+}
+
+.header-signup{
+    text-align: center;
+}
+
+.header-signup h1{
+    font-size: 2.5em;
+    color: rgb(51, 48, 48);
+    
+}
+
+.cont{
+    margin: 20px 0;
+}
+
+.cont p{
+    margin: 10px 0;
+
+}
+
+.cont p label{
+    display: block;
+    font-weight: bold;
+}
+
+.cont p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid  rgb(163, 202, 232);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.cont p input[type="submit"] {
+    background-color: rgb(74, 126, 203);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.cont p input[type="submit"]:hover{
+    background-color: rgb(29, 87, 135);
+}
+
+.cont footer p {
+color: rgb(90, 85, 85);
+text-align: center;
+
+}
+
