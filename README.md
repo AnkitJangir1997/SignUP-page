@@ -1,2 +1,3 @@
 # SignUP-page
-create by Ankit jaangid 
+Name- Ankit jaangid 
+E-mail- ankitjangir1997@gmail.com
